@@ -9,3 +9,5 @@ An ao486-based PC built for the **Digilent Nexys A7-100T**, with DDR2-backed mem
 > **Bring your own DOS.** Microsoft MS-DOS 6.22, installation floppies, installed disk images and commercial applications are not included. Use your own licensed copy to create `DOS622.VHD`.
 
 ---
+
+https://github.com/KD5VMF/KD5VMF-KD5VMF-Nexys-A7-100T-ao486/releases

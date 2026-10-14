@@ -2,7 +2,7 @@
 
 ### A small FPGA board. A real x86 machine. Your own DOS installation.
 
-An **ao486-based PC built for the Digilent Nexys A7-100T**, featuring DDR2-backed memory, VGA video output, sound support, SD card storage, and a hardware POST display.
+An **ao486-based PC built for the Digilent Nexys A7-100T**, featuring DDR2-backed memory, VGA video output, sound support, SD card storage, a hardware POST display, and a **blue HDD activity LED** that provides visual feedback during disk access.
 
 This project brings a classic DOS PC experience to modern FPGA hardware. The release package includes the accepted firmware, matching source code, and the tools needed to prepare your own DOS installation.
 
@@ -18,7 +18,7 @@ There is still plenty of work ahead, but the progress so far demonstrates what t
 
 **DOOM runs reasonably well, with decent overall performance.** The game is playable with audio disabled, and much of the gameplay experience works as expected.
 
-However, performance can still slow down in certain areas, particularly during more graphically demanding scenes or at higher graphics settings. Additional optimization is needed to improve frame rates and maintain consistent gameplay.
+However, performance can still slow down in certain areas, particularly during more graphically demanding scenes. Additional optimization is needed to improve frame rates and maintain consistent gameplay.
 
 Sound support is also still being worked on.
 
@@ -28,13 +28,26 @@ Sound support is also still being worked on.
 
 The system is not yet where it needs to be for consistently smooth DOOM II gameplay. Additional performance improvements and optimization are needed.
 
-Getting both games running at all on this FPGA implementation is an encouraging milestone, but neither is being presented as fully optimized or completely finished.
+Getting both games running on this FPGA implementation is an encouraging milestone, but neither is being presented as fully optimized or completely finished.
 
 ### Sound Support
 
 Sound works very well in other DOS programs, demonstrating that the audio implementation is functional.
 
 However, both DOOM and DOOM II currently require audio to be disabled for successful gameplay. Resolving this compatibility issue remains an active development priority.
+
+## Hardware Features
+
+- **FPGA Platform:** Digilent Nexys A7-100T
+- **Processor:** ao486 x86-compatible CPU core
+- **Memory:** DDR2-backed system memory
+- **Video:** VGA output for DOS applications and games
+- **Audio:** Sound support for compatible DOS software
+- **Storage:** SD card-based DOS disk environment
+- **POST Display:** Hardware display for system startup and diagnostic information
+- **Blue HDD Activity LED:** A dedicated blue LED that indicates disk activity, providing a familiar visual indication whenever the system accesses its storage
+
+The blue HDD activity LED adds a small but useful touch of authenticity, much like the hard drive activity lights found on classic desktop PCs.
 
 ## Project Status
 
@@ -47,7 +60,8 @@ The project has reached several important milestones:
 - VGA video output is operational.
 - Sound works in supported DOS applications.
 - SD card storage provides the DOS disk environment.
-- Hardware POST information is displayed.
+- The hardware POST display provides startup information.
+- The **blue HDD activity LED indicates storage access**.
 - DOOM and DOOM II both run, with known performance and audio limitations.
 
 **This project is still in its early stages.** Despite its relatively recent development, a significant amount of time and effort has already gone into the hardware design, firmware integration, troubleshooting, testing, and overall system improvements.

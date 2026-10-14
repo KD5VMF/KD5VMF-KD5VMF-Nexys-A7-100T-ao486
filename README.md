@@ -4,6 +4,8 @@
 
 An ao486-based PC built for the **Digilent Nexys A7-100T**, with DDR2-backed memory, VGA output, sound, SD storage and a hardware POST display. This share kit brings together the accepted firmware, its matching source and the tools needed to prepare your own DOS card.
 
+Doom and Doom2 work with audio disabled. Other programs sound works great, but I am still fighting those two.
+
 **Share kit:** October 13, 2026 · **Accepted firmware:** `20261011-A7-AWARD-POST`
 
 > **Bring your own DOS.** Microsoft MS-DOS 6.22, installation floppies, installed disk images and commercial applications are not included. Use your own licensed copy to create `DOS622.VHD`.

@@ -192,7 +192,7 @@ This keeps the project focused on the FPGA hardware implementation and the tools
 
 **GitHub Releases:**
 
-https://github.com/KD5VMF/KD5VMF-KD5VMF-Nexys-A7-100T-ao486/releases
+https://github.com/KD5VMF/Nexys-A7-100T-ao486/releases
 
 This project is being shared with FPGA enthusiasts, retrocomputing hobbyists, and developers who want to experiment with a hardware-based x86 DOS computer.
 
